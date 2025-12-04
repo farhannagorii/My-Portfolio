@@ -45,7 +45,7 @@ export default function Intro() {
   }, []);
 
   return (
-    <div className="relative max-w-lg mx-auto p-8 mt-10 bg-white rounded-2xl space-y-5">
+    <div className="relative max-w-lg mx-auto ml-38 p-8 mt-7 bg-[#E8FFFA] rounded-2xl space-y-5">
 
       {/* Line 1 */}
       <motion.h1
@@ -54,7 +54,7 @@ export default function Intro() {
         transition={{ duration: 0.0 }}
         className="text-[36px] font-extrabold text-gray-800"
       >
-        <span className="text-[#0AB6A1]" style={{ animation: 'blink 3s infinite' }}>
+        <span className="text-[#F7A400]" style={{ animation: 'blink' }}>
           Hello!
         </span>
       </motion.h1>
@@ -98,19 +98,22 @@ export default function Intro() {
         <div className="flex justify-center items-center gap-5 mt-4">
 
           <a href="https://www.facebook.com/farhan.nagori.503/"  className="social-box">
-            <img src="/facebook.avif" alt="facebook" className="w-8 h-8" />
+            <img src="/facebook.avif" alt="facebook" className="w-7 h-7" />
           </a>
 
           <a href="https://www.instagram.com/farhannagorii/" className="social-box">
-            <img src="/instagram.jpg" alt="instagram" className="w-6 h-6" />
+            <img src="/instagram.jpg" alt="instagram" className="w-7 h-7" />
           </a>
 
           <a href="https://www.linkedin.com/in/farhannagori/" className="social-box">
-            <img src="/linkedin.avif" alt="linkedin" className="w-6 h-6" />
+            <img src="/linkedin.avif" alt="linkedin" className="w-7 h-7" />
           </a>
 
           <a href="https://leetcode.com/u/Farhannagori/" className="social-box">
-            <img src="/leetcode.png" alt="leetcode" className="w-6 h-6" />
+            <img src="/leetcode.png" alt="leetcode" className="w-7 h-7" />
+          </a>
+          <a href="https://github.com/farhannagorii" className="social-box">
+            <img src="/github.png" alt="leetcode" className="w-7 h-7" />
           </a>
           <div className="flex justify-center mt-6">
   <NavLink

@@ -6,8 +6,8 @@ export default function Navbar() {
 
   const linkClass = ({ isActive }) =>
     `transition no-underline ${
-      isActive ? "text-[#1C5440]" : "text-white"
-    } hover:text-[#1C5440]`;
+      isActive ? "text-[#F7A400]" : "text-white"
+    } hover:text-[#F7A400]`;
 
   return (
     <nav className="w-[90%]  ml-12 fixed top-0 left-0 bg-[#0AB6A1] shadow-md mt-3 z-50 rounded-full mt-5  ">
@@ -33,7 +33,7 @@ export default function Navbar() {
             <NavLink to="/contact" className={linkClass}>Contact</NavLink>
           </li>
           <li>
-            <NavLink to="/contact" className={linkClass}>Projects</NavLink>
+            <NavLink to="/project" className={linkClass}>Projects</NavLink>
           </li>
         </ul>
 
