@@ -9,7 +9,7 @@ export default function Resume() {
       <h1 className="text-4xl font-bold text-[#1B4D3E] mb-6">My Resume</h1>
 
       {/* CV Image */}
-      <div className="w-full max-w-3xl bg-white shadow-xl rounded-xl p-6">
+      <div className="w-full max-w-3xl hover:shadow-2xl bg-white shadow-xl rounded-xl p-6">
         <img src={cvImage} alt="Farhan Nagori CV" className="w-full rounded-lg" />
       </div>
 

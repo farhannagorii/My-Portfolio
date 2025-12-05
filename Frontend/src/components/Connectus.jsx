@@ -13,7 +13,7 @@ export default function ConnectSection() {
     return (
         <>
             {/* Main Section */}
-            <section className="bg-white py-20 px-6">
+            <section className="bg-[#E8FFFA] py-20 px-6">
                 <div className="max-w-7xl mx-auto">
 
                     {/* Heading */}

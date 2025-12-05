@@ -1,6 +1,4 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+
 import './App.css'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import Layout from './pages/Layout'
@@ -9,6 +7,7 @@ import About from './pages/About'
 import Contect from './pages/Contect-us'
 import Resume from './pages/Resume'
 import HireMe from './components/Hire-me'
+import Projects from './pages/Projects'
 
 function App() {
   
@@ -33,6 +32,10 @@ function App() {
         {
           path: "resume",
           element: <Resume />,
+        },
+        {
+          path: "projects",
+          element: <Projects />,
         },
       ],
     },

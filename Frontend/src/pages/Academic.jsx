@@ -48,7 +48,7 @@ export default function AcademicJourney() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
 
           {/* Education Card */}
-          <div className="bg-gray-50 p-8 rounded-2xl shadow-sm border border-gray-200">
+          <div className="bg-gray-50 p-8 hover:shadow-xl rounded-2xl shadow-sm border border-gray-200">
             <div className="flex items-center gap-3 mb-6">
               <div className="w-12 h-12 rounded-full bg-[#F7A400]/20 flex items-center justify-center">
                 {/* <GraduationCap className="text-[#F7A400] w-6 h-6" /> */}
@@ -68,7 +68,7 @@ export default function AcademicJourney() {
           </div>
 
           {/* Work Experience Card */}
-          <div className="bg-gray-50 p-8 rounded-2xl shadow-sm border border-gray-200">
+          <div className="bg-gray-50 p-8 rounded-2xl shadow-sm hover:shadow-xl border border-gray-200">
             <div className="flex items-center gap-3 mb-6">
               <div className="w-12 h-12 rounded-full bg-[#F7A400]/20 flex items-center justify-center">
                 {/* <Briefcase className="text-[#F7A400] w-6 h-6" /> */}

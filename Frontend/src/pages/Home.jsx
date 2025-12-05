@@ -6,6 +6,8 @@ import Resume from "./Resume";
 import Contact from "./Contect-us";
 import AcademicJourney from "./Academic";
 import ConnectSection from "../components/Connectus";
+import ProjectsSection from "./Projects";
+import Projects from "./Projects";
 
 function Home() {
   return (
@@ -33,6 +35,9 @@ function Home() {
       </div>
       <div>
         <AcademicJourney />
+      </div>
+      <div>
+        <Projects />
       </div>
       <div>
         <ConnectSection />

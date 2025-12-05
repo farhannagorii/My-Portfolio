@@ -2,11 +2,11 @@ import React from 'react'
 
 function Myimage() {
   return (
-    <div className="flex h-100 w-110  mr-33 justify-center p-4 ">
+    <div className="flex h-100 w-110  mr-33  justify-center p-4 ">
    <img 
     src="Screenshot .png"
     alt="Farhan Nagori"
-    className="object-cover shadow-xl  rounded-4xl"
+    className="object-cover shadow-xl  rounded-4xl hover:shadow-2xl "
   />
 </div>
   );
