@@ -1,14 +1,5 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-// import {
-//   Facebook,
-//   Instagram,
-//   Youtube,
-//   Linkedin,
-//   Mail,
-//   ArrowRight,
-// } from "lucide-react";
-
 export default function ConnectSection() {
     return (
         <>
@@ -21,12 +12,6 @@ export default function ConnectSection() {
                         <h1 className="text-3xl md:text-4xl font-extrabold text-gray-900">
                             Let's <span className="text-[#F7A400]">Connect</span> there
                         </h1>
-
-                        {/* CTA */}
-                        {/* <button className="mt-4 md:mt-0 flex items-center gap-2 bg-[#F7A400] text-white font-semibold px-6 py-2 rounded-full shadow hover:bg-[#d88f00] transition">
-              View All Blogs  */}
-                        {/* <ArrowRight size={18} /> */}
-                        {/* </button> */}
                     </div>
 
                     {/* Grid */}
@@ -38,7 +23,7 @@ export default function ConnectSection() {
                                 <div className="w-8 h-8 flex items-center justify-center rounded-full bg-[#F7A400]/20">
                                     <span className="font-bold text-[#F7A400] text-lg">F</span>
                                 </div>
-                                <p className="text-lg font-semibold text-gray-800">Farhan.</p>
+                                <p className="text-lg font-semibold text-gray-800">Farhan Nagori</p>
                             </div>
 
                             <p className="text-gray-600 leading-relaxed">
@@ -77,7 +62,7 @@ export default function ConnectSection() {
                             <ul className="space-y-3 text-gray-600">
                                 <li> <NavLink to="contact"> contect </NavLink></li>
                                 <li> <NavLink to="about"> About </NavLink></li>
-                                <li> <NavLink to="project"> Projects </NavLink></li>
+                                <li> <NavLink to="projects"> Projects </NavLink></li>
                                 <li> <NavLink to="resume"> Resume </NavLink></li>
 
                             </ul>
@@ -89,10 +74,9 @@ export default function ConnectSection() {
                                 Contact
                             </h3>
                             <ul className="space-y-3 text-gray-600">
-                                <li>+91-9876543210</li>
-                                <li>farhan@example.com</li>
-                                <li>www.farhanportfolio.com</li>
-                                <li>Indore, India</li>
+                                <li>+91-7425044009</li>
+                                <li>er.farhanngori@gmail.com</li>
+                                <li>jodhpur,Rajathan, India</li>
                             </ul>
                         </div>
 
@@ -102,14 +86,14 @@ export default function ConnectSection() {
                                 Get the latest information
                             </h3>
                             <div className="flex items-center bg-gray-100 border border-gray-300 rounded-full px-4 py-2">
-                                {/* <Mail className="text-gray-400 w-5 h-5" /> */}
+                               
                                 <input
                                     type="email"
                                     placeholder="Email address"
                                     className="flex-1 bg-transparent outline-none px-3"
                                 />
                                 <button className="bg-[#F7A400] p-2 rounded-full hover:bg-[#d88f00] transition">
-                                    {/* <ArrowRight className="text-white w-5 h-5" /> */}
+                                  
                                 </button>
                             </div>
                         </div>

@@ -12,21 +12,5 @@ function Myimage() {
   );
 }
 
-// export default Myimage
-
-
-// import React from 'react'
-
-// function Myimage() {
-//   return (
-//   <div className="flex h-100 mr-49 justify-center p-4">
-//   <img 
-//     src="Screenshot .png"
-//     alt="Farhan Nagori"
-//     className="object-cover shadow-lg"
-//   />
-// </div>
-//   );
-// }
 
 export default Myimage

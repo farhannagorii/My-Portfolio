@@ -1,5 +1,5 @@
 import React from "react";
-// import { Plus } from "lucide-react";
+
 
 export default function Projects() {
   const projects = [
@@ -38,8 +38,10 @@ export default function Projects() {
             My Latest <span className="text-[#F7A400]">Projects</span>
           </h1>
 
-          <button className="mt-4 md:mt-0 flex items-center gap-2 bg-[#0B6B50] text-white font-semibold px-6 py-2 rounded-full shadow hover:bg-[#08533d] transition">
-            View All Projects
+          <button className="mt-4 md:mt-0 flex items-center mr-10 gap-2 bg-[#08533d] text-white font-semibold px-6 py-2 rounded-full shadow hover:bg-[#08533d] transition"> 
+              <a href="https://github.com/farhannagorii">  View All Projects<br></br> on github
+            </a>
+           
             <span className="text-xl font-bold">→</span>
           </button>
         </div>
@@ -79,7 +81,7 @@ export default function Projects() {
 
               {/* Plus Button */}
               <div className="absolute bottom-4 right-4 bg-[#0B6B50] p-2 rounded-full cursor-pointer hover:bg-[#08533d] transition">
-                {/* <Plus size={18} className="text-white" /> */}
+
               </div>
             </div>
           ))}

@@ -1,6 +1,6 @@
 import React from "react";
-import cvImage from "/cv_image.png"; // place the image in src/assets
-import cvPdf from "../assets/farhan-nagori-cv.pdf"; // your real pdf
+import cvImage from "/cv_image.png";
+import cvPdf from "../assets/farhan-nagori-cv.pdf"; 
 
 export default function Resume() {
   return (
