@@ -96,7 +96,7 @@ export default function Intro() {
         {/* Social Icons */}
         <div className="flex flex-wrap justify-center gap-4 sm:gap-6 mt-4">
           <a href="https://www.facebook.com/farhan.nagori.503/" className="social-box">
-            <img src="/facebook.avif" alt="facebook" className="w-7 h-7 sm:w-8 sm:h-8" />
+            <img src="/facebook.png" alt="facebook" className="w-7 h-7 sm:w-8 sm:h-8" />
           </a>
 
           <a href="https://www.instagram.com/farhannagorii/" className="social-box">
@@ -104,7 +104,7 @@ export default function Intro() {
           </a>
 
           <a href="https://www.linkedin.com/in/farhannagori/" className="social-box">
-            <img src="/linkedin.avif" alt="linkedin" className="w-7 h-7 sm:w-8 sm:h-8" />
+            <img src="/linkedin-logo-1.png" alt="linkedin" className="w-7 h-7 sm:w-8 sm:h-8" />
           </a>
 
           <a href="https://leetcode.com/u/Farhannagori/" className="social-box">
