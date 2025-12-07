@@ -33,7 +33,7 @@ export default function ConnectSection() {
                             {/* Social Icons */}
                             <div className="flex gap-4 mt-4 justify-start">
                                 <a href="https://www.facebook.com/farhan.nagori.503/" className="flex-shrink-0">
-                                    <img src="/facebook.avif" alt="facebook" className="w-6 h-6 sm:w-8 sm:h-8" />
+                                    <img src="/facebook.png" alt="facebook" className="w-6 h-6 sm:w-8 sm:h-8" />
                                 </a>
 
                                 <a href="https://www.instagram.com/farhannagorii/" className="flex-shrink-0">
@@ -41,7 +41,7 @@ export default function ConnectSection() {
                                 </a>
 
                                 <a href="https://www.linkedin.com/in/farhannagori/" className="flex-shrink-0">
-                                    <img src="/linkedin.avif" alt="linkedin" className="w-6 h-6 sm:w-8 sm:h-8" />
+                                    <img src="/linkedin-logo-1.png" alt="linkedin" className="w-6 h-6 sm:w-8 sm:h-8" />
                                 </a>
 
                                 <a href="https://leetcode.com/u/Farhannagori/" className="flex-shrink-0">
@@ -75,7 +75,7 @@ export default function ConnectSection() {
                             </h3>
                             <ul className="space-y-3 text-gray-600">
                                 <li>+91-7425044009</li>
-                                <li>er.farhanngori@gmail.com</li>
+                                <li><a href="https://mail.google.com/mail/u/0/#inbox">er.farhanngori@gmail.com</a></li>
                                 <li>jodhpur,Rajathan, India</li>
                             </ul>
                         </div>

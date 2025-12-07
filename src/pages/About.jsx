@@ -14,7 +14,7 @@ export default function Aboutme() {
           {/* Yellow Circle Behind */}
           <div className="w-72 h-72 bg-[#0AB6A1] rounded-full absolute top-6 left-6"> 
             <img
-            src="github.png"
+            src="reactt.png"
             alt="Farhan Nagori"
             className="w-72 h-72 object-cover rounded-full relative z-10 shadow-xl"
           />
@@ -22,13 +22,13 @@ export default function Aboutme() {
 
           {/* Main Image */}
           <img
-            src="linkedin.avif"
+            src="node.png"
             alt="Farhan Nagori"
-            className="w-72 h-72 ml-12 object-cover rounded-full relative z-10 shadow-xl"
+            className="w-72 h-72 ml-22 object-cover rounded-full relative z-10 shadow-xl"
           />
 
           {/* Skills Badges */}
-          <div className="absolute bottom-0 left-1/2 -translate-x-1/2 ml-3 bg-white py-3 px-4 rounded-full shadow-md flex gap-2 flex-wrap text-xs z-20">
+          <div className="absolute bottom-0 left-1/2 -translate-x-1/2 ml-11 bg-white py-3 px-4 rounded-full shadow-md flex gap-2 flex-wrap text-xs z-20">
             <span className="bg-[#1B4D3E] text-white px-3 py-1 rounded-full">
               Frontend
             </span>
@@ -43,7 +43,7 @@ export default function Aboutme() {
 
         {/* RIGHT — TEXT SECTION */}
         <div className="text-white">
-          <p className="text-sm text-gray-300 mb-2">— About Me</p>
+          <p className="text-[25px] text-gray-300 mb-2">— About Me</p>
 
           <h1 className="text-4xl font-bold leading-tight mb-4">
             Who is <span className="text-[#F7A400]">Farhan Nagori?</span>
