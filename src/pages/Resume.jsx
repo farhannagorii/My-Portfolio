@@ -1,6 +1,6 @@
 import React from "react";
-import cvImage from "/cv_image.png";
-import cvPdf from "../assets/farhan-nagori-cv.pdf"; 
+import cvImage from "/farhannagori_cv (2)_page-0001 (1).jpg";
+import cvPdf from "../assets/farhannagori-cv.pdf"; 
 
 export default function Resume() {
   return (
